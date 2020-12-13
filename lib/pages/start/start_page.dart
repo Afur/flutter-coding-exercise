@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 class StartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var primaryTextTheme = Theme.of(context).primaryTextTheme;
+    var primaryTextTheme = Theme
+        .of(context)
+        .primaryTextTheme;
 
     return Scaffold(
       body: Column(
@@ -15,10 +17,10 @@ class StartPage extends StatelessWidget {
             children: [
               Flexible(
                   child: Text(
-                "Welcome to SPA Coding challenge",
-                style: primaryTextTheme.headline5,
-                textAlign: TextAlign.center,
-              )),
+                    "Welcome to SPA Coding challenge",
+                    style: primaryTextTheme.headline5,
+                    textAlign: TextAlign.center,
+                  )),
             ],
           ),
         ],
@@ -26,3 +28,5 @@ class StartPage extends StatelessWidget {
     );
   }
 }
+
+

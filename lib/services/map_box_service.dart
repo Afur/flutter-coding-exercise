@@ -3,7 +3,6 @@ import 'package:http/http.dart' as http;
 import 'package:spa_coding_exercise/util/array_util.dart';
 
 class MapBoxService {
-
   static String accessToken = "";
 
   static Future<List<MapBoxPlace>> searchPlaces(String searchQuery, [int limit = 6]) async {
